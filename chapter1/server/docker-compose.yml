@@ -1,0 +1,7 @@
+appdemo1:
+    image: registry.cn-beijing.aliyuncs.com/djm/appdemo1:latest
+    ports:
+      - "5000:80"
+    restart: always
+    container_name: appdemo1_container
+
